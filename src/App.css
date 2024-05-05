@@ -1,0 +1,93 @@
+/* General Body Style */
+body, h1, h2, h3, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container for the pricing cards */
+.price-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; /* Prevents wrapping */
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #007bff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Individual price cards */
+.price-card {
+  flex: 0 0 30%; /* Flex grow 0, shrink 0, basis 30% */
+  max-width: 300px; /* Sets maximum width for each card */
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px; /* Reducing margin to fit all cards */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-price {
+  font-size: 30px;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.features {
+  list-style: none;
+  width: 100%;
+  text-align: left;
+}
+
+.features li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.features li:last-child {
+  border-bottom: none;
+}
+
+.features li.excluded {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.card-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top: auto;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
