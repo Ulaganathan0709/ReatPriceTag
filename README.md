@@ -11,7 +11,7 @@ This React application showcases a dynamic pricing card layout designed to adapt
 
 ## Live Demo
 
-Visit the live application here: [React Price Tag Live Demo](https://your-netlify-subdomain.netlify.app)
+Visit the live application here: [React Price Tag Live Demo](https://reatpricetag.netlify.app/)
 
 ## Getting Started
 
@@ -24,6 +24,9 @@ Make sure you have Node.js and npm installed on your computer. If not, you can d
 ### Installation
 
 1. **Clone the Repository**
+
+    ```bash
+    https://github.com/Ulaganathan0709/ReatPriceTag
     ```
 
 2. **Install Dependencies**
