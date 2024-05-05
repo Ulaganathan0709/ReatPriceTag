@@ -41,7 +41,7 @@ Make sure you have Node.js and npm installed on your computer. If not, you can d
     npm run dev
     ```
 
-    After running the command, open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+    After running the command, open in your browser to view the application.
 
 ## Technologies Used
 
